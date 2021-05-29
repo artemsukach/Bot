@@ -1,0 +1,29 @@
+{
+  "name": "Boldak",
+  "version": "1.0.0",
+  "description": "A bot that can recognize user intentions in the form of text queries",
+  "main": "bot.js",
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "assert-plus": "^1.0.0",
+    "buffer-alloc": "^1.2.0",
+    "buffer-alloc-unsafe": "^1.1.0",
+    "buffer-fill": "^1.0.0",
+    "config": "^3.3.6",
+    "event-target-shim": "^5.0.1",
+    "node-telegram-bot-api": "0.53.0",
+    "node-wit": "^6.0.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": [
+    "Dmytro Vihor <vdude112358@gmail.com>",
+    "Artem Sukach <artemsukach.official@gmail.com>"
+  ],
+  "license": "ISC"
+}
